@@ -12,6 +12,7 @@ warnings.filterwarnings('ignore')
 bank_data = pd.read_csv(path)
 
 bank = pd.read_csv(path)
+
 #Code starts here
 categorical_var = bank.select_dtypes(include='object')
 categorical_var
